@@ -1,0 +1,402 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+	list-style: none;
+}
+img{
+	display: block;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+}
+body{
+	background-color: #f8f8f8;
+	font-family: "微软雅黑","宋体";
+    font-size: 12px;
+    color: #666;
+}
+a{
+	text-decoration: none;
+	display: block;
+}
+input{
+	border: 0;
+	outline:none;
+	display: block;
+}
+.logo{
+		width: 100%;
+		height: 110px;
+		background: red;
+}
+.logo .lg{
+	width: 1000px;
+	height: 100%;
+	margin: 0 auto;
+	background: yellow;
+}
+.top{
+	width: 100%;
+	height: 85px;
+	padding-top: 25px;
+	position: relative;
+	top: 0;
+	left: 0;
+	background-color: #F8F8F8;
+}
+.topp{
+	width: 1000px;
+	margin: 0 auto;   
+}
+.top img{
+	height: 61px;
+    width: 267px;
+    float: left;
+}
+.navv{
+	width:100%;
+	height:50px; 
+	background-color: black;
+}
+.nav{
+	width: 1000px;
+	height: 50px;
+	margin: 0 auto;
+	background-color: #000;
+}
+.nav .nav1{
+	width: 110px;
+	height: 50px;
+    margin-right: 40px;
+    text-align: center;
+    float: left;
+    cursor: pointer;
+}
+.nav .nav1:hover{
+	background-color: #fff;
+
+}
+.nav .nav1:hover span{
+	color: #000;
+}
+.nav .nav1 span{
+	color: #fff;
+	font-size: 16px;
+	line-height: 50px;
+    font-family: 微软雅黑;
+}
+.nav a .nav2{
+	background-color: #fff;
+}
+.nav a .nav2 span{
+	color: black;
+}
+/* banner */
+.banner{
+	width: 100%;
+	height: 300px;
+	background-position: 50% 50%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-image: url('../images/datu.jpg');
+    background-size: cover;
+}
+/* con */
+.con{
+	width: 1000px;
+	height: 396px;
+	background: red;
+	margin: 0 auto;
+	margin-top: 15px;
+	margin-bottom: 10px;
+	box-sizing: border-box;
+}
+/* 左边 */
+.con .con1{
+	width: 572px;
+	height: 386px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	background: #fff;
+	float: left;
+}
+.con .con1-1{
+	width: 280px;
+	height: 179px;
+	margin: 7px 3px 7px 2px;
+	/*box-sizing: border-box;*/
+	float: left;
+	cursor: pointer;
+}
+.con .con1-1 a img{
+	margin: 0 auto;
+}
+.con .con1-1 .zi{
+	width: 100%;
+	height: 19px;
+	margin-top: 20px;
+	text-align: center;
+	line-height: 19px;
+	font-size: 14px;
+	color: #666;
+}
+ /*右边  */
+ .con .con2{
+	width: 428px;
+	height: 100%;
+	padding-bottom: 16px;
+	background: #fff;
+	float: left;
+	padding-top: 12px;
+	box-sizing: border-box;
+ }
+ .con .con2  .wenti{
+ 	width: 400px;
+ 	height: 33px;
+ 	padding: 3px 5px;
+ 	border-bottom: 1px dashed #ccc;
+ 	margin: 0 auto; 
+ }
+ .con .con2  .wenti:last-child{
+ 	border: 0;
+ }
+ .con .con2 .wenti a{
+ 	width: 100%;
+ 	height: 100%;
+ 	color: #333;
+ }
+ .con .con2 .wenti a:hover{
+ 	color: #FF9D0B;
+ }
+
+ .con1-1  .zi:hover{
+	color: #FF9D0B;
+}
+ .con .con2 .wenti a .ti{
+ 	width: auto;
+ 	height: auto;
+ 	line-height: 33px;
+ 	float: left;
+ 	
+ }
+ .con .con2 .wenti a .date{
+ 	width: auto;
+ 	height: auto;
+ 	line-height: 33px;
+ 	float: right;
+
+ }
+ /* bottom */
+ .tom{
+ 	width: 100%;
+ 	height: 122px;
+ 	background: #000000;
+ }
+ .tom  .tom1{
+ 	width: 1000px;
+ 	height: 122px;
+ 	padding: 18px 0;
+ 	margin: 0 auto;
+ 	box-sizing: border-box;
+ }
+ .tom .tom1 .bt1{
+ 	width: 100%;
+ 	height: 26px;
+ 	color: #545454;
+ 	font-size: 13px;
+
+ }
+ .tom .tom1 .bt1 .dianhua{
+ 	width: 270px;
+ 	height: 26px;
+ 	line-height: 26px;
+ 	float: left;
+ }
+ .tom .tom1 .bt1 .lianjie{
+ 	width: auto;
+ 	height: 100%;
+ 	float: right;
+ }
+.tom .tom1 .bt1 .lianjie a{
+	width: auto;
+	height: 26px;
+	line-height: 26px;
+	float: left;
+	font-size: 12px;
+	color: #545454;
+}
+.tom .tom1 .bt1 .lianjie a:hover{
+	color: #fff;
+}
+.tom .tom1 .bt1 .lianjie .gun{
+	height: 26px;
+	line-height: 26px;
+	float: left;
+	margin: 0 3px;
+	font-size: 10px;
+}
+ .tom .tom1 .bt2{
+ 	width: 100%;
+ 	height: 26px;
+ 	color: #545454;
+ 	font-size: 13px;
+ }
+ .tom .tom1 .bt2 .youxiang{
+ 	width: 270px;
+ 	height: 26px;
+ 	line-height: 26px;
+ 	float: left;
+ }
+ .tom .tom1 .bt2 .youxiang:last-child{
+ 	width: auto;
+ 	height: 26px;
+ 	line-height: 26px;
+ 	float: right;
+ }
+ .tom .tom1 .bt3{
+ 	width: 100%;
+ 	height: 26px;
+ 	color: #545454;
+ 	font-size: 13px;
+ }
+.tom .tom1 .bt3 .dizhi{
+ 	width: auto;
+ 	height: 26px;
+ 	line-height: 26px;
+ 	float: left;
+ }
+ .tom .tom1 .bt3 .denglu{
+ 	width: auto;
+ 	height: 100%;
+ 	float: right;
+ }
+.tom .tom1 .bt3 .denglu .tp{
+	width: auto;
+	height: 26px;
+	line-height: 26px;
+	float: left;
+	margin-right: 1px;
+}
+.tom .tom1 .bt3 .denglu .before{
+	width: auto;
+	height: 26px;
+	line-height: 26px;
+	float: left;
+	font-size: 12px;
+	float: left;
+	margin-right: 6px;
+	color: #545454;
+}
+.icon-wangyiyunyinlezizhi-copy{
+	line-height: 26px;
+	float: left;
+	font-size: 12px;	
+}
+.tom .tom1 .bt3 .denglu .before p{
+	float: left;
+}
+.tom .tom1 .bt3 .denglu .before:hover{
+	color: #fff;
+}
+.tom .tom1 .bt3 .denglu .gun{
+	height: 26px;
+	line-height: 26px;
+	float: left;
+	margin: 0 3px;
+	font-size: 10px;
+}
+.tom .tom1 .bt3 .denglu .guanli{
+	width: auto;
+	height: 26px;
+	line-height: 26px;
+	float: left;
+	font-size: 12px;
+	color: #545454;
+}
+.tom .tom1 .bt3 .denglu .guanli:hover{
+	color: #fff;
+}
+/* 效果 */
+.box{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background:rgba(0,0,0,0.5);
+	z-index: -1;
+	opacity: 0;
+}
+.ul{
+	width: 855px;
+	height: 110px;
+	position: absolute;
+	bottom: 286px;
+	left: -220px;
+	background: orange;
+	z-index: 21;
+}
+.ull{
+	width: 855px;
+	height: 110px;
+	position: absolute;
+	bottom: 286px;
+	background: orange;
+	z-index: 20;
+}
+.box img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+ul>li{
+	width: 210px;
+	height: 110px;
+}
+ul>li:nth-child(1){
+	width: 210px;
+	height: 110px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+ul>li:nth-child(2){
+	position: absolute;
+	top: 0;
+	left: 215px;
+}
+ul>li:nth-child(3){
+	position: absolute;
+	top: 0;
+	left: 430px;
+}
+ul>li:nth-child(4){
+	position: absolute;
+	top: 0;
+	left: 645px;
+}
+.hezi{
+	width: 685px;
+	height: 376px;
+	position: absolute;
+	left: 0;
+	background: #fff;
+	right: 0;
+	margin: 0 auto;
+	bottom: 286px;
+	z-index: 99;
+}
+.guanbi{
+	width: 45px;
+	height: 45px;
+	top: 0;
+	bottom: 0;
+	left:-100px;
+	margin: auto;
+	position: absolute;
+	top: -680px;
+	right: -1400px;
+	cursor: pointer;
+}

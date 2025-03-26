@@ -1,0 +1,265 @@
+*{
+	padding:0;
+	margin:0;
+	list-style: none;
+	font-style: normal;
+	font-weight: normal;
+}
+img{
+	display: block;
+}
+input{
+	border: 0;
+	outline:none;
+	display: block;
+}
+a{
+	text-decoration: none;
+}
+body{
+	background-color: #F8F8F8;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+.top{
+	width: 100%;
+	height: 85px;
+	padding-top: 25px;
+	position: relative;
+	top: 0;
+	left: 0;
+	background-color: #F8F8F8;
+}
+.topp{
+	width: 1000px;
+	margin: 0 auto;   
+}
+.top img{
+	height: 61px;
+    width: 267px;
+    float: left;
+}
+.navv{
+	width:100%;
+	height:50px; 
+	background-color: black;
+}
+.nav{
+	width: 1000px;
+	height: 50px;
+	margin: 0 auto;
+	background-color: #000;
+}
+.nav .nav1{
+	width: 110px;
+	height: 50px;
+    margin-right: 40px;
+    text-align: center;
+    float: left;
+    cursor: pointer;
+}
+.nav .nav1:hover{
+	background-color: #fff;
+}
+.nav .nav1:hover span{
+	color: #000;
+}
+.nav .nav1 span{
+	color: #fff;
+	font-size: 16px;
+	line-height: 50px;
+    font-family: 微软雅黑;
+}
+.nav a .nav2{
+	background-color: #fff;
+}
+.nav a .nav2 span{
+	color: black;
+}
+.center{
+	width: 1000px;
+	height: 781px;
+	margin:10px auto;
+	background-color: #fff;
+}
+.center .yp1{
+	width: 235px;
+    height: 349px;
+    padding: 5px 0;
+    float: left;
+    margin: 5px 5px 10px 5px;
+    text-align: center;
+    background-color: #fff;
+}
+.center .yp1 .yp1top{
+	padding-bottom: 10px;
+	box-sizing: border-box;
+	border-bottom: 1px dashed #ccc;
+
+}
+.center .yp1 .yp1top img{
+	width: 235px;
+	height: 235px;
+	margin-bottom: 10px;
+}
+.center .yp1 a{
+	color: #756041;
+	font-size: 16px;
+}
+.center .yp1 .qian{
+	width: 65px;
+	margin: 8px auto;
+}
+.center .yp1 .qian p{
+	font-size: 12px;
+	color: #d38200;
+	float: left;
+	margin-top: 4px;
+}
+.center .yp1 .qian i{
+	font-size: 20px;
+	color: #d38200;
+}
+.center .yp1 .goumai{
+	height: 33px;
+    width: 80%;
+    margin: 0 auto;
+    line-height: 32px;
+    background-color: #d38200;
+    border-radius: 3px;
+    text-align: center;
+}
+.center .yp1 .goumai a{
+	color: #fff;
+}
+/* bottom */
+ .tom{
+ 	width: 100%;
+ 	height: 122px;
+ 	background: #000000;
+ }
+ .tom  .tom1{
+ 	width: 1000px;
+ 	height: 122px;
+ 	padding: 18px 0;
+ 	margin: 0 auto;
+ 	box-sizing: border-box;
+ }
+ .tom .tom1 .bt1{
+ 	width: 100%;
+ 	height: 26px;
+ 	color: #545454;
+ 	font-size: 13px;
+
+ }
+ .tom .tom1 .bt1 .dianhua{
+ 	width: 270px;
+ 	height: 26px;
+ 	line-height: 26px;
+ 	float: left;
+ }
+ .tom .tom1 .bt1 .lianjie{
+ 	width: auto;
+ 	height: 100%;
+ 	float: right;
+ }
+.tom .tom1 .bt1 .lianjie a{
+	width: auto;
+	height: 26px;
+	line-height: 26px;
+	float: left;
+	font-size: 12px;
+	color: #545454;
+}
+.tom .tom1 .bt1 .lianjie a:hover{
+	color: #fff;
+}
+.tom .tom1 .bt1 .lianjie .gun{
+	height: 26px;
+	line-height: 26px;
+	float: left;
+	margin: 0 3px;
+	font-size: 10px;
+}
+ .tom .tom1 .bt2{
+ 	width: 100%;
+ 	height: 26px;
+ 	color: #545454;
+ 	font-size: 13px;
+ }
+ .tom .tom1 .bt2 .youxiang{
+ 	width: 270px;
+ 	height: 26px;
+ 	line-height: 26px;
+ 	float: left;
+ }
+ .tom .tom1 .bt2 .youxiang:last-child{
+ 	width: auto;
+ 	height: 26px;
+ 	line-height: 26px;
+ 	float: right;
+ }
+ .tom .tom1 .bt3{
+ 	width: 100%;
+ 	height: 26px;
+ 	color: #545454;
+ 	font-size: 13px;
+ }
+.tom .tom1 .bt3 .dizhi{
+ 	width: auto;
+ 	height: 26px;
+ 	line-height: 26px;
+ 	float: left;
+ }
+ .tom .tom1 .bt3 .denglu{
+ 	width: auto;
+ 	height: 100%;
+ 	float: right;
+ }
+.tom .tom1 .bt3 .denglu .tp{
+	width: auto;
+	height: 26px;
+	line-height: 26px;
+	float: left;
+	margin-right: 1px;
+}
+.tom .tom1 .bt3 .denglu .before{
+	width: auto;
+	height: 26px;
+	line-height: 26px;
+	float: left;
+	font-size: 12px;
+	float: left;
+	margin-right: 6px;
+	color: #545454;
+}
+.icon-wangyiyunyinlezizhi-copy{
+	line-height: 26px;
+	float: left;
+	font-size: 12px;	
+}
+.tom .tom1 .bt3 .denglu .before p{
+	float: left;
+}
+.tom .tom1 .bt3 .denglu .before:hover{
+	color: #fff;
+}
+.tom .tom1 .bt3 .denglu .gun{
+	height: 26px;
+	line-height: 26px;
+	float: left;
+	margin: 0 3px;
+	font-size: 10px;
+}
+.tom .tom1 .bt3 .denglu .guanli{
+	width: auto;
+	height: 26px;
+	line-height: 26px;
+	float: left;
+	font-size: 12px;
+	color: #545454;
+}
+.tom .tom1 .bt3 .denglu .guanli:hover{
+	color: #fff;
+}

@@ -1,0 +1,454 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+	list-style: none;
+}
+img{
+	display: block;
+}
+body{
+	background-color: #f8f8f8;
+	font-family: "微软雅黑","宋体";
+    font-size: 12px;
+    color: #666;
+}
+a{
+	text-decoration: none;
+	display: block;
+}
+input{
+	border: 0;
+	outline:none;
+	display: block;
+}
+.logo{
+		width: 100%;
+		height: 110px;
+		background: red;
+}
+.logo .lg{
+	width: 1000px;
+	height: 100%;
+	margin: 0 auto;
+	background: yellow;
+}
+.top{
+	width: 100%;
+	height: 85px;
+	padding-top: 25px;
+	position: relative;
+	top: 0;
+	left: 0;
+	background-color: #F8F8F8;
+}
+.topp{
+	width: 1000px;
+	margin: 0 auto;   
+}
+.top img{
+	height: 61px;
+    width: 267px;
+    float: left;
+}
+.navv{
+	width:100%;
+	height:50px; 
+	background-color: black;
+}
+.nav{
+	width: 1000px;
+	height: 50px;
+	margin: 0 auto;
+	background-color: #000;
+}
+.nav .nav1{
+	width: 110px;
+	height: 50px;
+    margin-right: 40px;
+    text-align: center;
+    float: left;
+    cursor: pointer;
+}
+.nav .nav1:hover{
+	background-color: #fff;
+
+}
+.nav .nav1:hover span{
+	color: #000;
+}
+.nav .nav1 span{
+	color: #fff;
+	font-size: 16px;
+	line-height: 50px;
+    font-family: 微软雅黑;
+}
+.nav a .nav2{
+	background-color: #fff;
+}
+.nav a .nav2 span{
+	color: black;
+}
+/* banner */
+.banner{
+	width: 100%;
+	height: 300px;
+	background-position: 50% 50%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-image: url('../images/datu.jpg');
+    background-size: cover;
+}
+/* 表单 */
+.form{
+	width: 1000px;
+	height: 566px;
+	margin: 0 auto;
+	background: #fff;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	overflow: hidden;
+	padding-left: 15px;
+}
+.form .top{
+	height: 30px;
+    line-height: 30px;
+    background-color: transparent;
+    width: 1000px;
+    margin: 0 auto;
+    margin: 10px 0 15px;
+}
+.form form{
+	width: 620px;
+	height: auto;
+	float: left;
+	margin-left: 15px;
+}
+.form form input{
+	margin-left: 5px;
+}
+.form form  .lb1{
+	font-size: 12px;
+	float: left;
+	line-height: 30px;
+	padding-left: 13px;
+}
+.form form  .lb2{
+	font-size: 12px;
+	float: right;
+	line-height: 30px;
+}
+.form form  .lb3{
+	font-size: 12px;
+	float: left;
+	line-height: 30px;
+	padding-left: 13px;
+}
+#name{
+	width: 194px;
+	height: 30px;
+	border: 1px solid #dadada;
+	padding: 1px;
+	float: left;
+}
+#youxiang{
+	width: 194px;
+	height: 30px;
+	border: 1px solid #dadada;
+	padding: 1px;
+	float: right;
+}
+#tel{
+	width: 194px;
+	height: 30px;
+	border: 1px solid #dadada;
+	padding: 1px;
+	float: left;
+}
+.form form  .keng{
+	margin-top: 50px;
+	width: 620px;
+	height: 34px;
+}
+.form form  .keng1{
+	margin-top: 20px;
+	width: 700px;
+	height: 80px;
+}
+.form form  .lb4{
+	font-size: 12px;
+	float: left;
+	line-height: 80px;
+	padding-left: 13px;
+}
+.form form  .keng1 textarea{
+	width: 575px;
+	height: 100%;
+	float: left;
+	border: 1px solid #dadada;
+	box-sizing: border-box;
+	margin-left: 10px;
+	outline: none;
+}
+.form form  .keng2{
+	margin-top: 20px;
+	width: 620px;
+	height: 34px;
+}
+.form form  .lb5{
+	font-size: 12px;
+	float: left;
+	line-height: 30px;
+}
+#yanzheng{
+	width: 110px;
+	height: 34px;
+	border: 1px solid #dadada;
+	box-sizing: border-box;
+	float: left;
+}
+.form form  .keng2 .suiji{
+	width: 100px;
+	height: 100%;
+	margin-left: 175px;
+	border: 1px solid #98ACC3;
+	background-color: #ccc;
+}
+.form form  .keng3{
+	width: 620px;
+	height: 44px;
+	margin-top: 20px;
+}
+.form form  .keng3 input{
+	width: 219px;
+	height: 44px;
+	box-sizing: border-box;
+	border: 1px solid #dadada;
+	margin-left: 52px;
+	border-radius: 3px;
+	background-color: #ffaa00;
+	cursor: pointer;
+	color: #fff;
+	font-size: 14px;
+}
+.liuye{
+	width: 891px;
+	height: 34px;
+	margin-top: 330px;
+	margin-left: 15px;
+	line-height: 34px;
+	padding-bottom: 3px;
+	border-bottom: 1px dashed  #ffaa00;
+}
+.zanwu{
+	width: 891px;
+	height: 34px;
+	margin-top: 15px;
+	margin-left: 15px;
+	line-height: 34px;
+}
+.fanye{
+	width: 1000px;
+	height: 30px;
+	padding: 28px  18px 0 0;
+}
+.fanye .qian{
+	width: 70px;
+	height: 28px;
+	display: inline-block;
+    border: 1px solid #d6d6d6;
+    padding: 5px 10px;
+    border-radius: 2px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.fanye .qian:first-child{
+	margin-left: 250px;
+}
+.fanye .qian a{
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	line-height: 18px;
+	color: #d6d6d6;
+}
+.fanye .yeshu{
+	width: 27px;
+	height: 28px;
+	padding: 5px;
+	line-height: 28px;
+	display: inline-block;
+	text-align: center;
+}
+.fanye .yeshu1{
+	width: 58px;
+	height: 28px;
+	padding: 5px;
+	line-height: 28px;
+	display: inline-block;
+	text-align: center;
+}
+.fanye .tiao{
+	width: 170px;
+	height: 28px;
+	padding: 5px;
+	line-height: 28px;
+	display: inline-block;
+}
+.fanye .tiao  #shu{
+	border: 1px solid #dadada;
+    height: 28px;
+    width: 47px;
+    text-align: center;
+    margin: 0 5px;
+    border-radius: 3px;
+    color: #6e6e6e;
+    display: inline-block;
+    box-sizing: border-box;
+}
+.fanye .tiao  #dianji{
+	display: inline-block;
+    height: 28px;
+    padding: 0 12px;
+    border: 1px solid #dadada;
+    border-radius: 3px;
+    color: #6e6e6e;
+    line-height: 28px;
+    cursor: pointer;
+    margin-left: 10px;
+    box-sizing: border-box;
+}
+.fanye .tiao  #dianji:hover{
+	background: #6e6e6e;
+	color: #fff;
+}
+/* bottom */
+ .tom{
+ 	width: 100%;
+ 	height: 122px;
+ 	background: #000000;
+ }
+ .tom  .tom1{
+ 	width: 1000px;
+ 	height: 122px;
+ 	padding: 18px 0;
+ 	margin: 0 auto;
+ 	box-sizing: border-box;
+ }
+ .tom .tom1 .bt1{
+ 	width: 100%;
+ 	height: 26px;
+ 	color: #545454;
+ 	font-size: 13px;
+
+ }
+ .tom .tom1 .bt1 .dianhua{
+ 	width: 270px;
+ 	height: 26px;
+ 	line-height: 26px;
+ 	float: left;
+ }
+ .tom .tom1 .bt1 .lianjie{
+ 	width: auto;
+ 	height: 100%;
+ 	float: right;
+ }
+.tom .tom1 .bt1 .lianjie a{
+	width: auto;
+	height: 26px;
+	line-height: 26px;
+	float: left;
+	font-size: 12px;
+	color: #545454;
+}
+.tom .tom1 .bt1 .lianjie a:hover{
+	color: #fff;
+}
+.tom .tom1 .bt1 .lianjie .gun{
+	height: 26px;
+	line-height: 26px;
+	float: left;
+	margin: 0 3px;
+	font-size: 10px;
+}
+ .tom .tom1 .bt2{
+ 	width: 100%;
+ 	height: 26px;
+ 	color: #545454;
+ 	font-size: 13px;
+ }
+ .tom .tom1 .bt2 .youxiang{
+ 	width: 270px;
+ 	height: 26px;
+ 	line-height: 26px;
+ 	float: left;
+ }
+ .tom .tom1 .bt2 .youxiang:last-child{
+ 	width: auto;
+ 	height: 26px;
+ 	line-height: 26px;
+ 	float: right;
+ }
+ .tom .tom1 .bt3{
+ 	width: 100%;
+ 	height: 26px;
+ 	color: #545454;
+ 	font-size: 13px;
+ }
+.tom .tom1 .bt3 .dizhi{
+ 	width: auto;
+ 	height: 26px;
+ 	line-height: 26px;
+ 	float: left;
+ }
+ .tom .tom1 .bt3 .denglu{
+ 	width: auto;
+ 	height: 100%;
+ 	float: right;
+ }
+.tom .tom1 .bt3 .denglu .tp{
+	width: auto;
+	height: 26px;
+	line-height: 26px;
+	float: left;
+	margin-right: 1px;
+}
+.tom .tom1 .bt3 .denglu .before{
+	width: auto;
+	height: 26px;
+	line-height: 26px;
+	float: left;
+	font-size: 12px;
+	float: left;
+	margin-right: 6px;
+	color: #545454;
+}
+.icon-wangyiyunyinlezizhi-copy{
+	line-height: 26px;
+	float: left;
+	font-size: 12px;	
+}
+.tom .tom1 .bt3 .denglu .before p{
+	float: left;
+}
+.tom .tom1 .bt3 .denglu .before:hover{
+	color: #fff;
+}
+.tom .tom1 .bt3 .denglu .gun{
+	height: 26px;
+	line-height: 26px;
+	float: left;
+	margin: 0 3px;
+	font-size: 10px;
+}
+.tom .tom1 .bt3 .denglu .guanli{
+	width: auto;
+	height: 26px;
+	line-height: 26px;
+	float: left;
+	font-size: 12px;
+	color: #545454;
+}
+.tom .tom1 .bt3 .denglu .guanli:hover{
+	color: #fff;
+}

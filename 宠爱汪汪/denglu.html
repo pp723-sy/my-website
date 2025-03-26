@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>宠爱汪汪 - 登录</title>
+    <style>
+        /* 设置页面背景图*/
+        body {
+            background-image: url('images/登录.jpg'); /* 背景图片 */
+            background-size: cover; /* 背景图片覆盖整个页面 */
+            font-family: Arial, sans-serif; /* 字体样式 */
+            display: flex; /* 弹性盒模型布局 */
+            justify-content: center; /* 水平居中 */
+            align-items: center; /* 垂直居中 */
+            height: 100vh; /* 视口高度的100% */
+            margin: 0; /* 移除外边距 */
+        }
+        /* 登录表单样式 */
+        .login-form {
+            background-color: rgba(255, 255, 255, 0.8); /* 白色背景，透明度0.8 */
+            padding: 20px; /* 内边距 */
+            border-radius: 5px; /* 边框圆角 */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* 盒子阴影 */
+        }
+        .login-form h2 {
+            margin-bottom: 20px; /* 标题下边距 */
+        }
+        .login-form input {
+            width: 95%; /* 输入框宽度 */
+            margin-bottom: 10px; /* 输入框下边距 */
+            padding: 10px; /* 输入框内边距 */
+            border: 1px solid #ccc; /* 输入框边框 */
+            border-radius: 4px; /* 输入框边框圆角 */
+        }
+        .login-form button {
+            padding: 10px 20px; /* 按钮内边距 */
+            background-color: #aa5500; /* 按钮背景颜色 */
+            color: white; /* 按钮文字颜色 */
+            border: none; /* 移除边框 */
+            border-radius: 4px; /* 按钮边框圆角 */
+            cursor: pointer; /* 鼠标悬停时显示手形图标 */
+            margin-right: 10px; /* 按钮右边距 */
+        }
+        .login-form button:hover {
+            background-color: #0056b3; /* 鼠标悬停时按钮背景颜色 */
+        }
+        /* 弹出注册表单样式 */
+        .form-popup {
+            display: none; /* 默认不显示 */
+            position: fixed; /* 固定定位 */
+            left: 50%; /* 距离左边50% */
+            top: 50%; /* 距离顶部50% */
+            transform: translate(-50%, -50%); /* 水平垂直居中 */
+            background-color: rgba(255, 255, 255, 0.8); /* 白色背景，透明度0.8 */
+            padding: 20px; /* 内边距 */
+            border-radius: 5px; /* 边框圆角 */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* 盒子阴影 */
+        }
+        /* 注册表单样式，各填写项纵向排列 */
+        .register-form {
+            display: flex; /* 弹性盒模型布局 */
+            flex-direction: column; /* 纵向排列 */
+        }
+        .register-form input,
+        .register-form textarea {
+            margin-bottom: 20px; /* 输入框或文本区域下边距 */
+        }
+        .register-form button {
+            align-self: flex-start; /* 按钮与表单左对齐 */
+            margin-right: 0; /* 移除按钮右边距 */
+        }
+    </style>
+</head>
+<body>
+    <!-- 登录表单 -->
+    <div class="login-form">
+        <h2>登录</h2>
+        <input type="text" id="loginUsername" placeholder="用户名" required>
+        <input type="password" id="loginPassword" placeholder="密码" required>
+        <button onclick="login()">登录</button>
+        <button onclick="showRegisterForm()">注册</button>
+        <button onclick="forgotPassword()">忘记密码？</button>
+    </div>
+    <!-- 注册表单弹窗 -->
+    <div id="registerForm" class="form-popup">
+        <h2>注册</h2>
+        <!-- 注册表单 -->
+        <div class="register-form">
+            <input type="text" id="registerUsername" placeholder="用户名" required>
+            <input type="text" id="phoneNumber" placeholder="手机号" required>
+            <input type="text" id="dogName" placeholder="狗狗名字" required>
+            <input type="text" id="dogBreed" placeholder="狗狗品种" required>
+            <textarea id="dogDescription" placeholder="狗狗简介" required></textarea>
+            <button onclick="register()">完成注册</button>
+            <button onclick="hideRegisterForm()">取消</button>
+        </div>
+    </div>
+    <script>
+        // 显示注册表单弹窗
+        function showRegisterForm() {
+            document.getElementById("registerForm").style.display = "block";
+        }
+
+        // 隐藏注册表单弹窗
+        function hideRegisterForm() {
+            document.getElementById("registerForm").style.display = "none";
+        }
+
+        // 注册功能实现
+        function register() {
+            var username = document.getElementById("registerUsername").value;
+            var phoneNumber = document.getElementById("phoneNumber").value;
+            var dogName = document.getElementById("dogName").value;
+            var dogBreed = document.getElementById("dogBreed").value;
+            var dogDescription = document.getElementById("dogDescription").value;
+
+            // 弹出注册成功提示框，并带上用户输入的信息
+            alert("注册成功！用户名：" + username + "，手机号：" + phoneNumber);
+            hideRegisterForm(); // 隐藏注册表单
+        }
+
+        // 忘记密码功能实现，弹出默认用户名和密码
+        function forgotPassword() {
+            alert("用户名：乐乐，密码：12345");
+        }
+
+        // 登录功能实现
+        function login() {
+            var username = document.getElementById("loginUsername").value;
+            var password = document.getElementById("loginPassword").value;
+
+            // 如果用户名和密码与默认值匹配，则登录成功，并跳转到首页
+            if (username === "乐乐" && password === "12345") {
+                alert("登录成功！");
+                window.location.href = "index.html"; // 跳转到网站首页页面
+            } else {
+                alert("登录信息错误"); // 登录信息错误提示
+            }
+        }
+    </script>
+</body>
+</html>
+

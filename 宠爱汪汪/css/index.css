@@ -1,0 +1,493 @@
+*{
+	padding:0;
+	margin:0;
+	list-style: none;
+	font-style: normal;
+	 font-weight: normal;
+}
+images{
+	display: block;
+}
+input{
+	border: 0;
+	outline:none;
+	display: block;
+}
+a{
+	text-decoration: none;
+}
+body{
+	background-color: #F8F8F8;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+.top{
+	width: 100%;
+	height: 85px;
+	padding-top: 25px;
+	position: relative;
+	top: 0;
+	left: 0;
+	background-color: #F8F8F8;
+}
+.topp{
+	width: 1000px;
+	margin: 0 auto;   
+}
+.top images{
+	height: 61px;
+    width: 267px;
+    float: left;
+}
+.navv{
+	width:100%;
+	height:50px; 
+	background-color: black;
+}
+.nav{
+	width: 1000px;
+	height: 50px;
+	margin: 0 auto;
+	background-color: #000;
+}
+.nav .nav1{
+	width: 110px;
+	height: 50px;
+    margin-right: 40px;
+    text-align: center;
+    float: left;
+    cursor: pointer;
+    background-color: #000;
+}
+.nav .nav1:hover{
+	background-color: #fff;
+
+}
+.nav .nav1:hover span{
+	color: #000;
+}
+.nav .nav1 span{
+	color: #fff;
+	font-size: 16px;
+	line-height: 50px;
+    font-family: 微软雅黑;
+}
+.nav a .nav2{
+	background-color: #fff;
+}
+.nav a .nav2 span{
+	color: black;
+}
+.banner{
+	width: 100%;
+    height: 450px;
+    cursor: default;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    outline: none;
+    margin: 0px auto;
+    position: relative;
+    z-index: 1;
+	background-image: url('../images/bannee1.jpg');
+}
+.center{
+	width: 1000px;
+	height: auto;
+	margin:0 auto 10px;
+}
+.center .rmyq{
+	clear: both;
+    width: 100%;
+    margin-top: 15px;
+    padding-top: 20px;
+    background-color: #fff; 
+}
+.center .rmyq .yqtop{
+	height: 70px;
+    background-image: url('../images/rmyq.png') ;
+    background-repeat: no-repeat;
+}
+.center .rmyq .yqbottom{
+	width: 1000px;
+	height: 487px;
+	padding: 15px;
+	box-sizing: border-box;
+}
+.center .rmyq .yq1{
+	width: 235px;
+    height: 220px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+	background-image: url('../images/rmyc2.png');
+	background-repeat: no-repeat;
+	background-size: 235px 220px;
+	cursor: pointer;
+	position: relative;
+}
+.center .rmyq .yq2{
+	background-image: url('../images/rmyq3.png');
+	background-repeat: no-repeat;
+}
+.center .rmyq .yq3{
+	background-image: url('../images/rmyq4.png');
+	background-repeat: no-repeat;
+}
+.center .rmyq .yq4{
+	margin-right: 0;
+	background-image: url('../images/rmyq5.png');
+	background-repeat: no-repeat;
+}
+.center .rmyq .yq5{
+	width: 480px;
+	background-image: url('../images/rmyq6.png');
+	background-size: 480px 220px;
+	background-repeat: no-repeat;
+}
+.center .rmyq .yq6{
+	background-image: url('../images/rmyq7.png');
+	background-repeat: no-repeat;
+}
+.center .rmyq .yq7{
+	margin-right: 0;
+	background-image: url('../images/rmyq8.png');
+	background-repeat: no-repeat;
+}
+.center .cwyp{
+	width: 100%;
+	margin-top: 15px;
+	padding-top: 20px;
+	background-color: #fff;
+}
+.center .cwyp .yotop{
+	width: 100%;
+	height: 80px;
+	background-image: url('../images/cwyp.png');
+	background-repeat: no-repeat;
+}
+.center .cwyp .ypbottom{
+	width: 100%;
+	height: 284px;
+	padding: 15px;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-around;
+}
+.center .acjj{
+	width: 100%;
+	margin-top: 15px;
+	padding-top: 20px;
+	background-color: #fff;
+}
+.center .jjtop{
+	width: 100%;
+	height: 80px;
+	background-image: url('../images/acjj.png');
+	background-repeat: no-repeat;
+}
+.center .jjbottom{
+	width: 100%;
+	height: 378px;
+}
+.center .jjbottom .jjleft{
+	width: 340px;
+	height: 341px;
+	background-image: url('../images/acjj1.png');
+	float: left;
+    margin: 5px 10px 5px 5px;
+    position: relative;
+}
+.center .jjbottom .jjright{
+	width: 635px;
+	height: 355px;
+	float: right;
+}
+.center .jjbottom .jjright .r1{
+	height: 97px;
+	color: #161616;
+	font-size: 16px;
+	padding-top: 20px;
+}
+.center .jjbottom .jjright .r1:nth-child(2){
+	border-top: 1px dashed #E9E9E9;
+	border-bottom: 1px dashed #E9E9E9;
+}
+.center .jjbottom .jjright .r1 a{
+	 color: #161616;
+	 float: left;
+	 font-size: 14px;  
+}
+.center .jjbottom .jjright .r1 p{
+	 float: right;
+	 margin-right: 15px;
+}
+.center .jjbottom .jjright .r1 .r1top:hover{
+	color: #3CAFB6;
+}
+.center .jjbottom .jjright .r1 a:hover{
+	color: #3CAFB6;
+}
+.center .jjbottom .jjright .r1 span{
+	 color: #797979; 
+	 float: left; 
+	 margin-top: 5px;
+}
+/* bottom */
+ .tom{
+ 	width: 100%;
+ 	height: 122px;
+ 	background: #000000;
+ }
+ .tom  .tom1{
+ 	width: 1000px;
+ 	height: 122px;
+ 	padding: 18px 0;
+ 	margin: 0 auto;
+ 	box-sizing: border-box;
+ }
+ .tom .tom1 .bt1{
+ 	width: 100%;
+ 	height: 26px;
+ 	color: #545454;
+ 	font-size: 13px;
+
+ }
+ .tom .tom1 .bt1 .dianhua{
+ 	width: 270px;
+ 	height: 26px;
+ 	line-height: 26px;
+ 	float: left;
+ }
+ .tom .tom1 .bt1 .lianjie{
+ 	width: auto;
+ 	height: 100%;
+ 	float: right;
+ }
+.tom .tom1 .bt1 .lianjie a{
+	width: auto;
+	height: 26px;
+	line-height: 26px;
+	float: left;
+	font-size: 12px;
+	color: #545454;
+}
+.tom .tom1 .bt1 .lianjie a:hover{
+	color: #fff;
+}
+.tom .tom1 .bt1 .lianjie .gun{
+	height: 26px;
+	line-height: 26px;
+	float: left;
+	margin: 0 3px;
+	font-size: 10px;
+}
+ .tom .tom1 .bt2{
+ 	width: 100%;
+ 	height: 26px;
+ 	color: #545454;
+ 	font-size: 13px;
+ }
+ .tom .tom1 .bt2 .youxiang{
+ 	width: 270px;
+ 	height: 26px;
+ 	line-height: 26px;
+ 	float: left;
+ }
+ .tom .tom1 .bt2 .youxiang:last-child{
+ 	width: auto;
+ 	height: 26px;
+ 	line-height: 26px;
+ 	float: right;
+ }
+ .tom .tom1 .bt3{
+ 	width: 100%;
+ 	height: 26px;
+ 	color: #545454;
+ 	font-size: 13px;
+ }
+.tom .tom1 .bt3 .dizhi{
+ 	width: auto;
+ 	height: 26px;
+ 	line-height: 26px;
+ 	float: left;
+ }
+ .tom .tom1 .bt3 .denglu{
+ 	width: auto;
+ 	height: 100%;
+ 	float: right;
+ }
+.tom .tom1 .bt3 .denglu .tp{
+	width: auto;
+	height: 26px;
+	line-height: 26px;
+	float: left;
+	margin-right: 1px;
+}
+.tom .tom1 .bt3 .denglu .before{
+	width: auto;
+	height: 26px;
+	line-height: 26px;
+	float: left;
+	font-size: 12px;
+	margin-right: 6px;
+	color: #545454;
+}
+.icon-wangyiyunyinlezizhi-copy{
+	line-height: 26px;
+	float: left;
+	font-size: 12px;	
+}
+.tom .tom1 .bt3 .denglu .before p{
+	float: left;
+}
+.tom .tom1 .bt3 .denglu .before:hover{
+	color: #fff;
+}
+.tom .tom1 .bt3 .denglu .gun{
+	height: 26px;
+	line-height: 26px;
+	float: left;
+	margin: 0 3px;
+	font-size: 10px;
+}
+.tom .tom1 .bt3 .denglu .guanli{
+	width: auto;
+	height: 26px;
+	line-height: 26px;
+	float: left;
+	font-size: 12px;
+	color: #545454;
+}
+.tom .tom1 .bt3 .denglu .guanli:hover{
+	color: #fff;
+}
+/* 热门幼犬效果 */
+.mark{
+	width: 100%;
+	height: 100%;
+	background:rgba(0,0,0,0.6);
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+	/*opacity: 0;*/
+}
+
+.center .rmyq .yq1 .mark{
+	color: #FFFFFF;
+	font-size: 12px;
+	overflow: hidden;
+	text-align: center;
+	z-index: 999;
+	display: none;
+}
+.center .rmyq .yq1 .mark p{
+	display: block;
+	margin: 68.5px auto 0;
+}
+.center .rmyq .yq1 span{
+	display: block;
+	width: 200px;
+	margin:18px auto 0;
+}
+.box{
+	width: 600px;
+	height: 400px;
+	margin: 50px auto;
+	background: red;
+	position: relative;
+}
+images{
+	width: 100%;
+	height: 100%;
+}
+ul{
+	width: 600px;
+	height: 150px;
+
+	margin:0 auto;
+	overflow: hidden;
+}
+.hezi{
+	width: 600px;
+	height: 150px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+.imagesbox{
+	width: 600px;
+	height: 150px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.imagess{
+	width: 150px;
+	height: 100%;
+	border: 3px solid #fff;
+	box-sizing: border-box;
+	float: left;
+}
+.hot{
+	border-color: #ff6700;
+	z-index: 999;
+}
+[class ^= btn]{
+	position: absolute;
+	font-size: 50px;
+	font-weight: 600;
+}
+.box>.btn1{
+	width: 60px;
+	height: 60px;
+	top: 0;
+	bottom: 0;
+	left:-100px;
+	margin: auto;
+	font-size: 50px;
+	text-align: center;
+	line-height: 50px;
+	color: #FFFFFF;
+	cursor: pointer;
+}
+.box>.btn2{
+	width: 60px;
+	height: 60px;
+	top: 0;
+	bottom: 0;
+	right:-100px;
+	margin: auto;
+	color: #FFFFFF;
+	font-size: 50px;
+	text-align: center;
+	line-height: 50px;
+	cursor: pointer;
+}
+.bigbox{
+	width: 1200px;
+	height: 700px;
+	background: rgba(0, 0, 0, 0.8);
+	position: fixed;
+	top: 0;
+	left:0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+	z-index: 999;
+	display: none;
+}
+.guanbi{
+	width: 45px;
+	height: 45px;
+	top: 0;
+	bottom: 0;
+	left:-100px;
+	margin: auto;
+	position: absolute;
+	top: -600px;
+	right: -1200px;
+	cursor: pointer;
+}

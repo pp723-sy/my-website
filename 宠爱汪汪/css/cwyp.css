@@ -1,0 +1,390 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+	list-style: none;
+	font-weight: normal;
+	font-style: normal;
+}
+img{
+	display: block;
+}
+body{
+	background-color: #f8f8f8;
+	font-family: "微软雅黑","宋体";
+	font-size: 12px;
+	color: #666;
+}
+a{
+	text-decoration: none;
+	display: block;
+}
+icon{
+	font-size: 12px;
+}
+input{
+	border: 0;
+	outline:none;
+}
+textarea{
+	outline:none;
+}
+.logo{
+	width: 100%;
+	height: 110px;
+	background: red;
+}
+.logo .lg{
+	width: 1000px;
+	height: 100%;
+	margin: 0 auto;
+	background: yellow;
+}
+.top{
+	width: 100%;
+	height: 85px;
+	padding-top: 25px;
+	position: relative;
+	top: 0;
+	left: 0;
+	background-color: #F8F8F8;
+}
+.topp{
+	width: 1000px;
+	margin: 0 auto;
+}
+.top img{
+	height: 61px;
+	width: 267px;
+	float: left;
+}
+.navv{
+	width:100%;
+	height:50px;
+	background-color: black;
+}
+.nav{
+	width: 1000px;
+	height: 50px;
+	margin: 0 auto;
+	background-color: #000;
+}
+.nav .nav1{
+	width: 110px;
+	height: 50px;
+	margin-right: 40px;
+	text-align: center;
+	float: left;
+	cursor: pointer;
+}
+.nav .nav1:hover{
+	background-color: #fff;
+
+}
+.nav .nav1:hover span{
+	color: #000;
+}
+.nav .nav1 span{
+	color: #fff;
+	font-size: 16px;
+	line-height: 50px;
+	font-family: 微软雅黑;
+}
+.nav a .nav2{
+	background-color: #fff;
+}
+.nav a .nav2 span{
+	color: black;
+}
+.banner{
+	width: 100%;
+    height: 300px;
+    cursor: default;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    outline: none;
+    margin: 0px auto;
+    position: relative;
+    z-index: 1;
+	background-image: url('../images/cwpz.jpg');
+}
+.center{
+	width: 1000px;
+	height: auto;
+	padding-bottom: 30px;
+	margin:0 auto;
+}
+.center .xxq{
+	width: 100%;
+	height: 273px;
+	margin-top: 20px;
+	padding-top: 15px;
+	background-color: #fff;
+}
+.center .xxq .xxqtop{
+	height: 35px;
+	color: #000;
+	font-size: 18px;
+	font-weight: bold;
+	margin-left: 5px;
+}
+.center .xxq .xxqbottom {
+	height: auto;
+	padding-top: 10px;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-around;
+}
+.center .xxq .xxqbottom .xxq1{
+	text-align: center;
+	position: relative;
+	cursor: pointer;
+}
+.center .xxq .xxqbottom .xxq1 span{
+	display: block;
+	margin-top: 10px;
+	margin-bottom: 3px;
+	font-size: 14px;
+	color: #333333;
+}
+.center .xxq .xxqbottom .xxq1 .sousuo{
+	position: absolute;
+	top: 60px;
+	left: 85px;
+	opacity: 0;
+}
+.center .xxq .xxqbottom .xxq1:hover .sousuo{
+	opacity: 1;
+}
+/* bottom */
+ .tom{
+ 	width: 100%;
+ 	height: 122px;
+ 	background: #000000;
+ }
+ .tom  .tom1{
+ 	width: 1000px;
+ 	height: 122px;
+ 	padding: 18px 0;
+ 	margin: 0 auto;
+ 	box-sizing: border-box;
+ }
+ .tom .tom1 .bt1{
+ 	width: 100%;
+ 	height: 26px;
+ 	color: #545454;
+ 	font-size: 13px;
+
+ }
+ .tom .tom1 .bt1 .dianhua{
+ 	width: 270px;
+ 	height: 26px;
+ 	line-height: 26px;
+ 	float: left;
+ }
+ .tom .tom1 .bt1 .lianjie{
+ 	width: auto;
+ 	height: 100%;
+ 	float: right;
+ }
+.tom .tom1 .bt1 .lianjie a{
+	width: auto;
+	height: 26px;
+	line-height: 26px;
+	float: left;
+	font-size: 12px;
+	color: #545454;
+}
+.tom .tom1 .bt1 .lianjie a:hover{
+	color: #fff;
+}
+.tom .tom1 .bt1 .lianjie .gun{
+	height: 26px;
+	line-height: 26px;
+	float: left;
+	margin: 0 3px;
+	font-size: 10px;
+}
+ .tom .tom1 .bt2{
+ 	width: 100%;
+ 	height: 26px;
+ 	color: #545454;
+ 	font-size: 13px;
+ }
+ .tom .tom1 .bt2 .youxiang{
+ 	width: 270px;
+ 	height: 26px;
+ 	line-height: 26px;
+ 	float: left;
+ }
+ .tom .tom1 .bt2 .youxiang:last-child{
+ 	width: auto;
+ 	height: 26px;
+ 	line-height: 26px;
+ 	float: right;
+ }
+ .tom .tom1 .bt3{
+ 	width: 100%;
+ 	height: 26px;
+ 	color: #545454;
+ 	font-size: 13px;
+ }
+.tom .tom1 .bt3 .dizhi{
+ 	width: auto;
+ 	height: 26px;
+ 	line-height: 26px;
+ 	float: left;
+ }
+ .tom .tom1 .bt3 .denglu{
+ 	width: auto;
+ 	height: 100%;
+ 	float: right;
+ }
+.tom .tom1 .bt3 .denglu .tp{
+	width: auto;
+	height: 26px;
+	line-height: 26px;
+	float: left;
+	margin-right: 1px;
+}
+.tom .tom1 .bt3 .denglu .before{
+	width: auto;
+	height: 26px;
+	line-height: 26px;
+	float: left;
+	font-size: 12px;
+	float: left;
+	margin-right: 6px;
+	color: #545454;
+}
+.icon-wangyiyunyinlezizhi-copy{
+	line-height: 26px;
+	float: left;
+	font-size: 12px;	
+}
+.tom .tom1 .bt3 .denglu .before p{
+	float: left;
+}
+.tom .tom1 .bt3 .denglu .before:hover{
+	color: #fff;
+}
+.tom .tom1 .bt3 .denglu .gun{
+	height: 26px;
+	line-height: 26px;
+	float: left;
+	margin: 0 3px;
+	font-size: 10px;
+}
+.tom .tom1 .bt3 .denglu .guanli{
+	width: auto;
+	height: 26px;
+	line-height: 26px;
+	float: left;
+	font-size: 12px;
+	color: #545454;
+}
+.tom .tom1 .bt3 .denglu .guanli:hover{
+	color: #fff;
+}
+
+/* 效果 */
+.box{
+	width: 600px;
+	height: 400px;
+	margin: 50px auto;
+	background: red;
+	position: relative;
+}
+img{
+	width: 100%;
+	height: 100%;
+}
+ul{
+	width: 600px;
+	height: 150px;
+	
+	margin:0 auto;
+	overflow: hidden;
+}
+.hezi{
+	width: 600px;
+	height: 150px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+.imgbox{
+	width: 600px;
+	height: 150px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.imgs{
+	width: 150px;
+	height: 100%;
+	border: 3px solid #fff;
+	box-sizing: border-box;
+	float: left;
+}
+.hot{
+	border-color: #ff6700;
+    z-index: 999;
+}
+[class ^= btn]{
+	position: absolute;
+	font-size: 50px;
+	font-weight: 600;
+}
+.box>.btn1{
+	width: 60px;
+	height: 60px;
+	top: 0;
+	bottom: 0;
+	left:-100px;
+	margin: auto;
+	font-size: 50px;
+	text-align: center;
+	line-height: 50px;
+	color: #FFFFFF;
+    cursor: pointer;
+}
+.box>.btn2{
+	width: 60px;
+	height: 60px;
+	top: 0;
+	bottom: 0;
+	right:-100px;
+	margin: auto;
+	color: #FFFFFF;
+	font-size: 50px;
+	text-align: center;
+	line-height: 50px;
+    cursor: pointer;
+}
+.bigbox{
+	width: 1200px;
+	height: 700px;
+	background: rgba(0, 0, 0, 0.8);
+	position: fixed;
+	top: 0;
+	left:0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+	z-index: 999;
+	display: none;
+}
+.guanbi{
+	  width: 45px;
+	  height: 45px;
+	  top: 0;
+	  bottom: 0;
+	  left:-100px;
+	  margin: auto;
+	  position: absolute;
+	  top: -600px;
+	  right: -1200px;
+	  cursor: pointer;
+  }
